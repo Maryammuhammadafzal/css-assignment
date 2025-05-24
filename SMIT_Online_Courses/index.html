@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <style>
+        #form_image{
+            clip-path: circle(50%);
+        }
+        #email {
+            padding: 10px 40px 10px 40px;
+            text-align: left;
+            margin: auto;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            border: 1px solid #0d6efd;
+
+        }
+
+        #password {
+
+            margin: auto;
+            padding: 10px 40px 10px 40px;
+            border: 1px solid #0d6efd;
+            border-radius: 5px;
+        }
+
+        .signup {
+            padding: 10px 100px 10px 100px;
+            background-color: #0d6efd;
+            color: white;
+            border-radius: 5px;
+            border-color: #0d6efd;
+        }
+
+        .signin {
+            padding: 10px 100px 10px 100px;
+            background-color: #0d6efd;
+            color: white;
+            border-radius: 5px;
+            border-color: #0d6efd;
+        }
+
+        #year {
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <div style="padding-top: 130px; padding-left: 800px;">
+        <img src="./img/form_image.jpeg" alt="img" height="500px" width="500px" id="form_image">
+    </div>
+    <div style="margin-top: -500px; margin-left: 300px;">
+        <img src="./img/Smit_logo.jpg" alt="img">
+       
+        <div class="email">
+            <input type="email" name="email" value="" placeholder="Email address"  id="email" required><br>
+            <input type="password" name="password" value="" placeholder="password" maxlength="8" id="password"><br><br>
+            <input type="checkbox" name="rememberme" value="rememberme"><label for="rememberme">Remember me</label><br><br>
+        </div>
+        <div>
+
+            <a href="./courses.html"> <button type="submit" class="signup">Sign up</button></a><br><br>
+           
+        </div>
+        <div>
+            <p id="year">@2024-2026</p>
+        </div>
+</body>
+
+</html>
